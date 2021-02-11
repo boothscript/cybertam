@@ -14,31 +14,37 @@
   <body>
     <header>
       <div id="logo">CyberTAM</div>
-      <nav></nav>
     </header>
     <main>
       <div id="pet-container">
-        <div id="pet-picture"></div>
+        <div id="pet-picture">
+          <img src="img/placeholder-pet.png" />
+        </div>
+
         <div id="pet-stats">
-          <ul>
-            <li id="health"><i class="fas fa-heart"></i><span></span></li>
-            <li id="energy"><i class="fas fa-bolt"></i><span></span></li>
-            <li id="food">
-              <i class="fas fa-drumstick-bite"></i><span></span>
-            </li>
-            <li id="water"><i class="fas fa-tint"></i><span></span></li>
-            <li id="happiness"><i class="fas fa-smile"></i><span></span></li>
-          </ul>
+          <div id="health" class="icon"><i class="fas fa-heart"></i></div>
+          <div class="status-bar"></div>
+          <div id="energy" class="icon"><i class="fas fa-bolt"></i></div>
+          <div class="status-bar"></div>
+          <div id="food" class="icon">
+            <i class="fas fa-drumstick-bite"></i>
+          </div>
+          <div class="status-bar"></div>
+          <div id="water" class="icon"><i class="fas fa-tint"></i></div>
+          <div class="status-bar"></div>
+          <div id="happiness" class="icon"><i class="fas fa-smile"></i></div>
+          <div class="status-bar"></div>
+        </div>
+
+        <div id="text-bar">This is the status bar</div>
+        <div id="user-controls">
+          <button>Play</button>
+          <button>Feed</button>
+          <button>Water</button>
+          <button>Nap</button>
+          <button>Pet</button>
         </div>
       </div>
-      <div id="status-bar"></div>
-      <duv id="user-controls">
-        <button>Play</button>
-        <button>Feed</button>
-        <button>Water</button>
-        <button>Nap</button>
-        <button>Pet</button>
-      </duv>
     </main>
   </body>
 </html>

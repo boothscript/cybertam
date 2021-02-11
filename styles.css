@@ -1,0 +1,77 @@
+html {
+  font-size: 16px;
+  line-height: 1.4;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header #logo {
+  font-size: 3rem;
+}
+
+#pet-container {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template: 2fr 0.5fr 0.5fr / 1fr 1fr;
+  column-gap: 1em;
+}
+
+#pet-picture {
+  justify-self: end;
+}
+
+#pet-stats {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#pet-stats {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  max-width: 300px;
+}
+#pet-stats div.icon {
+  display: block;
+  width: 24px;
+  font-size: 1.5rem;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+#pet-stats div.status-bar {
+  height: 1.8rem;
+  width: 100%;
+  border-radius: 0.2em;
+  background: blue;
+  align-self: center;
+  margin-bottom: 0.2rem;
+}
+
+#text-bar,
+#user-controls {
+  grid-column: span 2;
+}
+
+#text-bar {
+  align-self: center;
+  padding: 0 10%;
+}
+
+#user-controls {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
