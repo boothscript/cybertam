@@ -58,17 +58,3 @@ class CyberPet {
     }
   }
 }
-
-const test = new CyberPet("test");
-
-console.log(test);
-test.play();
-console.log(test);
-test.nap();
-console.log(test);
-test.pet();
-console.log(test);
-test.eat();
-console.log(test);
-test.drink();
-console.log(test);
