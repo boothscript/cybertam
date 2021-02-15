@@ -36,6 +36,7 @@ petContainer.addEventListener("petAlert", (e) => {
 
 petContainer.addEventListener("petIsDead", (e) => {
   textBar.innerHTML = e.detail.text;
+  animateDeath();
 });
 
 actionButtons.forEach((actionButton) => {
@@ -64,3 +65,4 @@ updateStatusBars();
 console.log("here");
 // start pet
 cyberPet.tick();
+idle();

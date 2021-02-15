@@ -29,6 +29,7 @@ header #logo {
 
 #pet-picture {
   justify-self: end;
+  padding-right: 2em;
 }
 
 #pet-stats {
@@ -74,4 +75,13 @@ header #logo {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+/* set svg groups */
+#tounge,
+#nose-unhappy,
+#nose-flat,
+#eyes-blink,
+#eyes-dead {
+  opacity: 0;
 }
